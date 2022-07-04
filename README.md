@@ -3,6 +3,11 @@ Korean Boot Camp : [Sailing99](https://github.com/users/unchaptered/projects/3/v
 
 ## Course
 
+| Name | Period | Description |
+| :--- | :----- | :---------- |
+| Web Dev with `PyCharm` | 2022-07-04 (mon)<br>~ 2022-07-05 (tue)| Static Web (Dev, Build, Deploy), using PyCharm |
+| Pre-Test about `Web Dev with PyCharm` | 2022-07-06 (wed) | Implement about some Functions, using PyCharm |
+
 ### Pre-learning of Boot Camp
 
 1. [] Web Dev with `PyCharm` https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows
