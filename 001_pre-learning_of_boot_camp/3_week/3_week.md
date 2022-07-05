@@ -2,6 +2,33 @@
 
 <hr>
 
+## Python Settings
+
+When I initialization of Python Virtual Env, using PyCharm.
+I have 2 Folders right these.
+
+| name  | info |
+| :---- | :--- |
+| .idea | Project Folders Settings for Launch [more](https://rider-support.jetbrains.com/hc/en-us/articles/207097529-What-is-the-idea-folder-) |
+| venv  | Files for Virtual Environments |
+
+<hr>
+
+## Python Modules
+
+```cmd
+ <!-- for ajax -->
+requests
+
+<!-- for Crolling-->
+bs4
+
+<!-- for Conenct to MongoDB Atlas>
+pymongo
+dnspython
+```
+<hr>
+
 ## Python Syntax
 
 ### print
