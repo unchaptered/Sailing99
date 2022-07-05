@@ -1,4 +1,4 @@
-# 순위 / 곡 제목 / 가수 스크래핑
+# rank / title / artist
 import requests
 from bs4 import BeautifulSoup
 
