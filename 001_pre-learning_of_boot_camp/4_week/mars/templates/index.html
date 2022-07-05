@@ -54,26 +54,48 @@
     </style>
     <script>
 
-        $(document).ready(() => show_order());
+        $(document).ready(() => getOrder());
 
-        function show_order() {
+        function getOrder() {
             $.ajax({
                 type: 'GET',
                 url: '/mars',
                 data: {},
                 success: function (response) {
-                    alert(response['msg'])
+                    const orders = response?.orders;
+                    for (const order of orders) {
+                        console.log(order);
+                     $('#order_wrap').append(
+                            `<tr>
+                                <td>${order?.name}</td>
+                                <td>${order?.address}</td>
+                                <td>${order?.size}</td>
+                            </tr>`
+                        );
+                    }
                 }
             });
         }
         
-        function save_order() {
+        function showOrder() {
+
+            const form = {
+                name: $('#name').val(),
+                address: $('#address').val(),
+                size: $('#size').val()
+            }
+
+            for (const value of Object.values(form))
+                if (value === '' || value === '-- 주문 평수 --')
+                    return alert('Empty value is not valid');
+
             $.ajax({
                 type: 'POST',
                 url: '/mars',
-                data: { sample_give: '데이터전송' },
+                data: form,
                 success: function (response) {
-                    alert(response['msg'])
+                    alert(response['msg']);
+                    window.location.reload();
                 }
             });
         }
@@ -109,7 +131,7 @@
                     <option value="50평">50평</option>
                 </select>
             </div>
-            <button onclick="save_order()" type="button" class="btn btn-warning mybtn">주문하기</button>
+            <button onclick="showOrder()" type="button" class="btn btn-warning mybtn">주문하기</button>
         </div>
         <table class="table">
             <thead>
@@ -119,7 +141,7 @@
                     <th scope="col">평수</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="order_wrap">
                 <tr>
                     <td>홍길동</td>
                     <td>서울시 용산구</td>
