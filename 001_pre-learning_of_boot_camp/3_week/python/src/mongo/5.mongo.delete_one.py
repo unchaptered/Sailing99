@@ -1,0 +1,1 @@
+db.users.delete_one({ 'name': 'bobby' })

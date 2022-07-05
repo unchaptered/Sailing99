@@ -1,0 +1,1 @@
+user = db.users.find_one({ 'name': 'bobby' })

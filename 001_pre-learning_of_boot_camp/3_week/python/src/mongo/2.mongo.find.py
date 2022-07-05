@@ -1,0 +1,1 @@
+same_ages = list(db.users.find({ }, { '_id': False }))
