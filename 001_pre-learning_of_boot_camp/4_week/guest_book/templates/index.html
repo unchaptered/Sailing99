@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<title>10cm 방명록</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+<style>
+    
+    * {
+        font-family: 'Gowun Dodum', sans-serif;
+    }
+
+    #mytitle {
+        width: 100%;
+        height: 250px;
+
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOourZ_j9-1Do3KZIs3YSgfNJYgy1FS2u4dA&usqp=CAU');
+        background-position: center;
+        background-size: cover;
+
+        color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Btns */
+    .mypost {
+        width: 95%;
+        max-width: 500px;
+        margin: 20px auto 0px auto;
+        padding: 20px;
+        box-shadow: 0px 0px 3px 0px gray;
+    }
+    .mybtns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+    .mybtns > button {
+        margin-right: 10px;
+    }
+    
+    .card_wrap {
+        width: 95%;
+        max-width: 500px;
+        margin: 10px auto;
+    }
+    
+
+</style>
+</head>
+
+<script>
+    $(document).ready(() => {
+        callWather()
+        readPost()
+    })
+
+    function callWather() {
+        $.ajax({
+            type: 'GET',
+            url: 'http://spartacodingclub.shop/sparta_api/weather/seoul',
+            data: {},
+            success: ({ city, temp }) => {
+                $('#mytitle').append(`<p>${city} 기온 : ${temp} 도</p>`)
+            }
+        })
+    }
+    
+    function writePost() {
+        const form = {
+            name: $('#floatingInput').val(),
+            comment: $('#floatingTextarea2').val()
+        };
+
+        // console.log(form);
+        for (const value of Object.values(form))
+            if (value === '')
+                return alert('Empty value is not valid')
+            
+        $.ajax({
+            type: 'POST',
+            url: '/post',
+            data: form,
+            success: (response) => {
+                alert(response?.msg);
+                window.location.reload()
+            }
+        })
+    }
+    function readPost() {
+        $.ajax({
+            type: 'GET',
+            url: '/post',
+            data: {},
+            success: ({ posts }) => {
+                for (const { name, comment } of posts)
+                    $('body').append(`<div class="card card_wrap">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>${comment}</p>
+                                <footer class="blockquote-footer"><cite title="Source Title">${name}</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>`);
+            }
+        })
+    }
+</script>
+
+<body>
+    
+    <div id="mytitle">
+        <h1>10cm 방명록</h1>
+    </div>
+
+    <!-- MyPost -->
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">닉네임</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+            <label for="floatingTextarea2">응원댓글</label>
+        </div>
+        <div class="mybtns">
+            <button type="button" class="btn btn-dark"
+                onclick="writePost()">응원 남기기</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
