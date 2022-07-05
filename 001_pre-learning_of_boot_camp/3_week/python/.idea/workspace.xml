@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4979e68f-ac04-428c-939a-91a378140061" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mongo/2.pymongo.find.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mongo/2.pymongo.find.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.2.pymongo.find">
+  <component name="RunManager" selected="Python.1.genie.music">
     <configuration name="1.crolling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1.mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1.genie.music" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,12 +67,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/mongo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/task" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/mongo/1.mongo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/task/1.genie.music.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.genie.music" />
         <item itemvalue="Python.2.pymongo.find" />
         <item itemvalue="Python.3.pymongo.update" />
         <item itemvalue="Python.2.crolling.usage" />
         <item itemvalue="Python.1.crolling" />
-        <item itemvalue="Python.1.mongo" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657013400484</updated>
-      <workItem from="1657013407679" duration="4573000" />
+      <workItem from="1657013407679" duration="5191000" />
     </task>
     <servers />
   </component>
@@ -180,6 +179,7 @@
     <SUITE FILE_PATH="coverage/python$1_naver_movie.coverage" NAME="1.naver.movie Coverage Results" MODIFIED="1657015182714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$2_crolling_usage.coverage" NAME="2.crolling.usage Coverage Results" MODIFIED="1657018083660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mongo" />
     <SUITE FILE_PATH="coverage/python$1_ranking.coverage" NAME="1.ranking Coverage Results" MODIFIED="1657016220390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quiz" />
+    <SUITE FILE_PATH="coverage/python$1_genie_music.coverage" NAME="1.genie.music Coverage Results" MODIFIED="1657018954681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/python$2_soup_module.coverage" NAME="2.soup.module Coverage Results" MODIFIED="1657015459870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$1_mongo.coverage" NAME="1.mongo Coverage Results" MODIFIED="1657016963801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mongo" />
     <SUITE FILE_PATH="coverage/python$2_pymongo_find.coverage" NAME="2.pymongo.find Coverage Results" MODIFIED="1657018338338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mongo" />
