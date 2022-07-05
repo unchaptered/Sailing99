@@ -1,110 +1,21 @@
 # 3 week
 
-<hr>
+Third week, I study about Python with some modules.
 
-## Python Settings
+`request` seems like some fetch API...
+`pymongo` seems like mongoose...
 
-When I initialization of Python Virtual Env, using PyCharm.
-I have 2 Folders right these.
+`bs4` looks so great to crolling.
 
-| name  | info |
-| :---- | :--- |
-| .idea | Project Folders Settings for Launch [more](https://rider-support.jetbrains.com/hc/en-us/articles/207097529-What-is-the-idea-folder-) |
-| venv  | Files for Virtual Environments |
+But, I don't exactly know.. why we install dnspython to use pymongo.
 
 <hr>
 
-## Python Modules
+## Folders
 
-```cmd
- <!-- for ajax -->
-requests
-
-<!-- for Crolling-->
-bs4
-
-<!-- for Conenct to MongoDB Atlas>
-pymongo
-dnspython
-```
-<hr>
-
-## Python Syntax
-
-### print
-
-```python
-print('Hello, world!');
-```
-
-### variable
-
-```python
-a = 3;
-```
-
-### list
-
-```python
-alphabets = ['a', 'b', 'c'];
-
-print(alphabets);
-```
-
-### dictionary
-
-```python
-user = {
-    'name': 'unchaptered',
-    'age': 27
-}
-```
-
-### function
-
-```python
-def sum(a, b):
-    return a+b;
-```
-
-example
-
-```python
-def sum(a, b):
-    return a+b;
-
-result = sum(1, 2);
-print(result);
-```
-
-### condition
-
-```python
-def isAudult(age):
-    if age > 20:
-        print('Adult');
-    else:
-        print('Not Adult');
-```
-
-### loop
-
-```python
-for fruit in fruits:
-    print(fruit)
-```
-
-example
-
-```python
-for person in people:
-    if person['age'] > 20:
-        print(ppp['name']);
-```
-
-<hr>
-
-## Installation
-
-- Local Python 3.9
-- Lecture Python 3.8
+| No. | Ttitle  | Description                                                                                                   |
+| :-- | :------ | :------------------------------------------------------------------------------------------------------------ |
+|  1  | sample  | sample file for coding                                                                                        |
+|  2  | mongo   | Start to use crolling, using `requests/bs4` modules <br>Start to use MongoDB Atlas, using `pymongo` modules   |
+|  3  | quiz    | Start to cronlling and save, load data with atals                                                             |
+|  4  | task    | Homework, using requests/bs4                                                                                  |
