@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35c3d8af-6276-474e-8873-a4d0203964bb" name="Changes" comment="" />
+    <list default="true" id="4979e68f-ac04-428c-939a-91a378140061" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../3_week.md" beforeDir="false" afterPath="$PROJECT_DIR$/../3_week.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="2BWEHwPedH07z8133tLjpiyi3Zr" />
+  <component name="ProjectId" id="2BWENUerXJSwe3RBlPNlvxrV2pf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,18 +23,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35c3d8af-6276-474e-8873-a4d0203964bb" name="Changes" comment="" />
-      <created>1657013362372</created>
+      <changelist id="4979e68f-ac04-428c-939a-91a378140061" name="Changes" comment="" />
+      <created>1657013400484</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657013362372</updated>
-      <workItem from="1657013364498" duration="46000" />
+      <updated>1657013400484</updated>
+      <workItem from="1657013407679" duration="663000" />
     </task>
     <servers />
   </component>
