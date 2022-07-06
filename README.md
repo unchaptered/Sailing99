@@ -5,7 +5,7 @@ Korean Boot Camp : [Sailing99](https://hanghae99.spartacodingclub.kr/)
 
 | Name | Period | Description |
 | :--- | :----- | :---------- |
-| Web Dev with `PyCharm` | 22-07-04 (mon)<br>~ 22-07-05 (tue)| Static Web (Dev, Build, Deploy), using PyCharm |
+| Pre-Learning for pre-test | 22-07-04 (mon)<br>~ 22-07-05 (tue)| Static Web (Dev, Build, Deploy), using PyCharm |
 | Pre-Test about `Web Dev with PyCharm` | 22-07-06 (wed) | Implement about some Functions, using PyCharm |
 
 ### Pre-learning of Boot Camp
