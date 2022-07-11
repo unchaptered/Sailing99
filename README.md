@@ -1,6 +1,8 @@
 # Sailing99
 Korean Boot Camp : [Sailing99](https://hanghae99.spartacodingclub.kr/)
 
+<hr>
+
 ## Course
 
 | Name | Period | Description |
@@ -15,3 +17,8 @@ Korean Boot Camp : [Sailing99](https://hanghae99.spartacodingclub.kr/)
 ### Pre-test of Boot Camp
 
 1. [] Testing about `Web Dev with PyCharm`.
+
+### Orientation of Boot Camp
+
+- object : Be friendly co-worker.
+- date :  2022-07-11.
