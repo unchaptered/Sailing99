@@ -12,6 +12,6 @@ https://replit.com/@directlee21/gaegceriteoreol-geurigo-gujobunhaehaldang#index.
 
 ## Files
 
-[초안](./script.md)
-[PDF_파일_경로](./object-literal%20and%20destructuring.pdf)
-[PPTX_파일_경로](./object-literal%20and%20destructuring.pptx)]
+- [초안](./script.md)
+- [PDF_파일_경로](./object-literal%20and%20destructuring.pdf)
+- [PPTX_파일_경로](./object-literal%20and%20destructuring.pptx)
