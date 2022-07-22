@@ -12,6 +12,14 @@ https://replit.com/@directlee21/gaegceriteoreol-geurigo-gujobunhaehaldang#index.
 
 ## Files
 
+<<<<<<< HEAD
 - [초안](./script.md)
 - [PDF_파일_경로](./object-literal%20and%20destructuring.pdf)
 - [PPTX_파일_경로](./object-literal%20and%20destructuring.pptx)
+=======
+- [초안](https://github.com/unchaptered/Sailing99/blob/main/006_tech_pr/script.md)
+- [PDF_파일_경로](https://github.com/unchaptered/Sailing99/blob/main/006_tech_pr/object-literal%20and%20destructuring.pdf)
+- [PDF_발표본_경로](https://github.com/unchaptered/Sailing99/blob/main/006_tech_pr/object-literal%20and%20destructuring%20(final).pdf)
+- [PPTX_발표본_경로](https://github.com/unchaptered/Sailing99/blob/main/006_tech_pr/object-literal%20and%20destructuring.pptx)
+
+>>>>>>> ea6415bd768dbf6b447a9959e0b2c0e3f592e69b

@@ -13,7 +13,7 @@ Korean Boot Camp : [Sailing99](https://hanghae99.spartacodingclub.kr/)
 | Project `cofee-selector` | 22-07-11 (mon)<br>~ 22-07-14(tue) | View your custom cofeee-capsule, using PyCharm, Flask, MongoDB Atlas |
 | Algorihtm, with teamate | 22-07-15 (fri)<br>~ | JavaScript Algorithm study |
 | CS Study, with teamate | 22-07-18 (mon)<br>~ | Computer Science study, reading a book |
-| Tech PR | 22-07-19 (tue)<br>~ | Object-literal, and Destructring + PDF / Replit example |
+| Tech PR | 22-07-19 (tue) | Object-literal, and Destructring + PDF / Replit example |
 
 
 <hr>
