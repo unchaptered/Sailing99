@@ -1,4 +1,4 @@
-# algorithm
+# algorithm [저장소](https://github.com/unchaptered/algorithm)
 
 제목 : 알고리즘 스터디
 
