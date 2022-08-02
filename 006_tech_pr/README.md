@@ -1,0 +1,2 @@
+- Object literal and Destructuring
+- SQL vs NoSQL
